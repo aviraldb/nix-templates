@@ -15,10 +15,10 @@ A collection of Nix flake templates for bootstrapping new projects with reproduc
 
 ```bash
 # Rust project (default)
-nix flake init -t github:yourname/nix-templates#rust
+nix flake init -t github:aviraldb/nix-templates#rust
 
 # C project
-nix flake init -t github:yourname/nix-templates#c
+nix flake init -t github:aviraldb/nix-templates#c
 ```
 
 Then enter the development shell:
@@ -32,7 +32,7 @@ direnv allow
 ### Preview a template without initializing
 
 ```bash
-nix flake show github:yourname/nix-templates
+nix flake show github:aviraldb/nix-templates
 ```
 
 ---
