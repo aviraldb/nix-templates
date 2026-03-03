@@ -7,12 +7,12 @@
       default = self.templates.rust;
 
       rust = {
-        path = ./rust;
+        path = ./templates/rust;
         description = "Rust development";
       };
 
       c = {
-        path = ./c;
+        path = ./templates/c;
         description = "C development";
       };
 
